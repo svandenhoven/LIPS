@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="LIPS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LIPS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="33,103,0,0" TextWrapping="Wrap" Text="Language Interaction Personality Service" VerticalAlignment="Top" FontSize="48" Width="856"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="35,172,0,0" TextWrapping="Wrap" Text="LIPS" VerticalAlignment="Top" FontSize="72"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="46,322,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="154" Width="379" FontSize="22">
+            <Run Text="Utterances:"/>
+            <LineBreak/>
+            <Run Text="- Can I Park?"/>
+            <LineBreak/>
+            <Run Text="- Is there a Parking Place at Outlook?"/>
+        </TextBlock>
+
+    </Grid>
+</Page>
