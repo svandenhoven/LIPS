@@ -85,7 +85,7 @@ namespace LIPS
                 StorageFile vcdStorageFile = await Package.Current.InstalledLocation.GetFileAsync(@"LIPSVoiceCommands.xml");
                 await Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager.InstallCommandDefinitionsFromStorageFileAsync(vcdStorageFile);
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
                 System.Diagnostics.Debug.WriteLine("Installing Voice Commands Failed: " + ex.ToString());
             }
