@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
-  <CommandSet xml:lang="en-us" Name="AdventureWorksCommandSet_en-us">
-    <AppName> LIPS </AppName>
+  <CommandSet xml:lang="en-us" Name="LIPS_en-us">
+    <AppName> MyOffice </AppName>
     <Example> Can I Park </Example>
-
 
     <Command Name="CanIPark">
       <Example>Can I Park?</Example>
@@ -12,7 +11,7 @@
       <ListenFor RequireAppName="BeforeOrAfterPhrase"> is there a parking place</ListenFor>
       <ListenFor RequireAppName="BeforeOrAfterPhrase"> is there a parking place at {office}</ListenFor>
       <Feedback>Getting free parking places</Feedback>
-      <VoiceCommandService Target="AdventureWorksVoiceCommandService"/>
+      <VoiceCommandService Target="LIPSVoiceCommandService"/>
     </Command>
 
     <PhraseList Label="office">

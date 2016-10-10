@@ -127,6 +127,12 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LIPS_VoiceCommandService\LIPS_VoiceCommandService.csproj">
+      <Project>{f5f3b131-c13d-40be-ba04-21e2b8f05f89}</Project>
+      <Name>LIPS_VoiceCommandService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
